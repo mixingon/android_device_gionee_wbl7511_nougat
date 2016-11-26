@@ -1,5 +1,7 @@
-# android_device_gionee_wbl7511_nougat
-Gionee SPlus (WBL7511)
+
+
+
+# Device tree for Gionee SPlus (WBL7511) MT6753
 
 
 
@@ -7,4 +9,8 @@ Gionee SPlus (WBL7511)
 #  Development Stage
 
 
-# Work in Process
+# Work in Progress
+
+
+# Jai Sharma
+# jai@azodik.com
