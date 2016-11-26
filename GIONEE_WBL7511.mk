@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/GIONEE/GIONEE_WBL7511/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := s3plus_n560a
+PRODUCT_RELEASE_NAME := GIONEE SPLUS
 
 EXTENDED_FONT_FOOTPRINT := true
 
