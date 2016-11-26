@@ -9,7 +9,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := s3plus_n560a,S3H
+TARGET_OTA_ASSERT_DEVICE := GIONEE_WBL7511,GIONEE_WBL7513
 
 PRODUCT_PACKAGES += \
    libmtk_symbols \
