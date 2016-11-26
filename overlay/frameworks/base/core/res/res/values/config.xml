@@ -95,33 +95,33 @@
     <bool name="config_wifi_background_scan_support">true</bool>
 
     <!-- Wifi DualBand -->
-    <bool name="config_wifi_dual_band_support">true</bool>    
+    <!-- <bool name="config_wifi_dual_band_support">true</bool>   --> 
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveNotificationLed">true</bool>
+     <!--  <bool name="config_intrusiveNotificationLed">true</bool> --> 
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!-- <bool name="config_intrusiveBatteryLed">true</bool>  --> 
 
     <!-- Does the notification LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+  <!--   <bool name="config_multiColorNotificationLed">true</bool>  --> 
 
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+   <!--  <bool name="config_multiColorBatteryLed">true</bool>  --> 
 
     <!-- Default color for notification LED is green. -->
-    <color name="config_defaultNotificationColor">#ff00ff00</color>
+   <!--  <color name="config_defaultNotificationColor">#ff00ff00</color>  --> 
 
     <!-- Default value for led color when battery is low on charge -->
-    <integer name="config_notificationsBatteryLowARGB">0xffff0000</integer>
+    <!-- <integer name="config_notificationsBatteryLowARGB">0xffff0000</integer>  --> 
 
     <!-- Default value for led color when battery is medium charged -->
-    <integer name="config_notificationsBatteryMediumARGB">0xffff0000</integer>
+   <!--  <integer name="config_notificationsBatteryMediumARGB">0xffff0000</integer> --> 
 
     <!-- Default value for led color when battery is fully charged -->
-    <integer name="config_notificationsBatteryFullARGB">0xff00ff00</integer>   
+   <!--  <integer name="config_notificationsBatteryFullARGB">0xff00ff00</integer>  -->   
    
-    <bool name="config_automatic_brightness_available">true</bool>
+   <bool name="config_automatic_brightness_available">true</bool>
 
     <integer-array name="config_autoBrightnessLevels">
         <item>16</item>
@@ -330,7 +330,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">71</integer>
+   <!-- <integer name="config_deviceHardwareKeys">71</integer> -->
 
     <!-- Enable doze mode
          ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
