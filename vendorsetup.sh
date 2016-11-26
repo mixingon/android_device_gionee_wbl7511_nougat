@@ -1,2 +1,2 @@
-add_lunch_combo full_GIONEE_WBL7511-userdebug
-add_lunch_combo full_GIONEE_WBL7511-eng
+add_lunch_combo GIONEE_WBL7511-userdebug
+add_lunch_combo GIONEE_WBL7511-eng
