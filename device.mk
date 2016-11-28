@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     asec_helper
 
+# MTK's Engineer Mode
+PRODUCT_PACKAGES += \
+        EngineerMode
 # Audio
 PRODUCT_PACKAGES += \
     audio_policy.default \
