@@ -2,7 +2,7 @@
 -include vendor/GIONEE/GIONEE_WBL7511/BoardConfigVendor.mk
  
 TARGET_SPECIFIC_HEADER_PATH := device/GIONEE/GIONEE_WBL7511/include
- 
+TARGET_PROVIDES_INIT_RC := true
 # Link against libxlog
 TARGET_LDPRELOAD += libxlog.so
  
@@ -186,7 +186,7 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # Selinux
-#BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
 
 # do not check sensors for CM 14
